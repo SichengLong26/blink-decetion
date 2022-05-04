@@ -6,6 +6,7 @@ import argparse
 import time
 import dlib
 import cv2
+import matplotlib.pyplot as plt
 
 FACIAL_LANDMARKS_68_IDXS = OrderedDict([
 	("mouth", (48, 68)),
